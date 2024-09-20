@@ -8,5 +8,18 @@
 ul,ol{
     list-style: none;
 }
+/* layout reules */
+
+/*debug rules*/
+
+.debug .nav-flex {
+	border: 1px dashed black;
+    background-color: rgb(194, 253, 255);
+}
+
+.debug .logo,.main-menu, .cta{
+    border: 1px dashed black;
+    background-color: rgb(255, 187, 0);
+}
 
 
