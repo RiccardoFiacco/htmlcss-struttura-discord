@@ -9,7 +9,11 @@ ul,ol{
     list-style: none;
 }
 /* layout reules */
-
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
 .nav-flex{
     display: flex;
     justify-content: center;
@@ -34,6 +38,23 @@ ul,ol{
     width: 10%;
 }
 
+.hero{
+    background-color: rgb(24, 0, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.future-img{
+    background-color: rgb(255, 118, 214);
+    height: 75%;
+    width: 50%;
+
+}
+
+.row-25{
+    height: 25%;
+}
+
 /*debug rules*/
 
 .debug .nav-flex {
@@ -46,4 +67,7 @@ ul,ol{
     background-color: rgb(255, 187, 0);
 }
 
+.debug .hero{
+    border: 1px dashed black;
+}
 
