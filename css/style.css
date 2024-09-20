@@ -46,6 +46,10 @@ ul,ol{
 .row-45{
     height: 45%;
 }
+
+.row-80{
+    height: 80%;
+}
 /* first section  */
 .hero{
     background-color: rgb(24, 0, 183);
@@ -84,6 +88,19 @@ ul,ol{
     width: 25%;
     height: 80%;
 }
+/* main footer */
+.figure-main-footer{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure-footer{
+    background-color: rgb(2, 95, 6);
+    height: 90%;
+    width: 100%;
+}
 
 
 /*debug rules*/
@@ -112,5 +129,9 @@ ul,ol{
 }
 
 .debug .col-2{
+    border: 1px dashed black;
+}
+
+.debug .figure-main-footer{
     border: 1px dashed black;
 }
