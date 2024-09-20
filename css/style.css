@@ -8,12 +8,17 @@
 ul,ol{
     list-style: none;
 }
-/* layout reules */
-.container {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 0 2rem;
+/* container rules */
+.container .row{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    height: 100%;
+    width: 60%;
 }
+
+
+/* layout reules */
 .nav-flex{
     display: flex;
     justify-content: center;
@@ -31,13 +36,17 @@ ul,ol{
     display: flex;
     justify-content: flex-end;
 }
+
 .col-40{
     width: 40%;
 }
 .col-10{
     width: 10%;
 }
-
+.row-45{
+    height: 45%;
+}
+/* first section  */
 .hero{
     background-color: rgb(24, 0, 183);
     display: flex;
@@ -51,9 +60,31 @@ ul,ol{
     width: 50%;
 }
 
-.row-25{
-    height: 25%;
+/* 3 section */
+.section-type-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.section-type-2{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1{
+    background-color:rgb(19, 168, 242);
+    width: 65%;
+    height: 80%;
+}
+
+.col-2{
+    background-color:rgb(245, 181, 222);
+    width: 25%;
+    height: 80%;
+}
+
 
 /*debug rules*/
 
@@ -67,7 +98,19 @@ ul,ol{
     background-color: rgb(255, 187, 0);
 }
 
-.debug .hero{
+.debug .hero {
+    border-bottom: 2px black;
+    margin-bottom: 2px;
+}
+
+.debug .future-img{
     border: 1px dashed black;
 }
 
+.debug .col-1{
+    border: 1px dashed black;
+}
+
+.debug .col-2{
+    border: 1px dashed black;
+}
