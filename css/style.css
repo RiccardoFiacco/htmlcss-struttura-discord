@@ -99,6 +99,27 @@ ul,ol{
     width: 1200px;
 }
 
+/* footer */
+.section-type-3{
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+.col-3{
+    background-color:rgb(19, 168, 242);
+    width: 400px;
+    height: 400px;
+}
+
+.col-4{
+    background-color:rgb(245, 181, 222);
+    width: 200px;
+    height: 400px;
+    padding: 40px 50px;
+}
+
 
 /*debug rules*/
 
@@ -121,11 +142,7 @@ ul,ol{
     border: 1px dashed black;
 }
 
-.debug .col-1{
-    border: 1px dashed black;
-}
-
-.debug .col-2{
+.debug .col-1, .col-2, .col-3, .col-4{
     border: 1px dashed black;
 }
 
