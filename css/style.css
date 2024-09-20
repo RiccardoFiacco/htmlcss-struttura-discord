@@ -9,12 +9,13 @@ ul,ol{
     list-style: none;
 }
 /* layout reules */
+
 .nav-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
     padding: 12px 60px;
+    
 }
 .main-menu{
     display: flex;
@@ -26,11 +27,11 @@ ul,ol{
     display: flex;
     justify-content: flex-end;
 }
-.col-70{
-    width: 70%;
+.col-40{
+    width: 40%;
 }
-.col-15{
-    width: 15%;
+.col-10{
+    width: 10%;
 }
 
 /*debug rules*/
