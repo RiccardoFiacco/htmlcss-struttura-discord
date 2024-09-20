@@ -12,8 +12,8 @@ ul,ol{
 .container .row{
     display: flex;
     justify-content: space;
-    align-items: center;
-    
+    align-items: center; 
+
 }
 
 /* layout reules */
@@ -105,7 +105,10 @@ ul,ol{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 50px;
+    padding-left:  50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .col-3{
     background-color:rgb(19, 168, 242);
@@ -120,6 +123,25 @@ ul,ol{
     padding: 40px 50px;
 }
 
+.log-but{
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px; 
+    
+}
+
+.div-foot{
+    background-color: aqua;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
 
 /*debug rules*/
 
@@ -148,4 +170,11 @@ ul,ol{
 
 .debug .figure-main-footer{
     border: 1px dashed black;
+}
+.debug .log-but{
+    background-color: aqua;
+}
+.debug .log-foot, .button-foot{
+    border: 1px dashed black;
+    background-color: yellowgreen; 
 }
