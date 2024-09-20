@@ -111,13 +111,13 @@ ul,ol{
     padding-bottom: 30px;
 }
 .col-3{
-    background-color:rgb(19, 168, 242);
+    background-color:rgb(254, 120, 120);
     width: 400px;
     height: 400px;
 }
 
 .col-4{
-    background-color:rgb(245, 181, 222);
+    background-color:rgb(69, 169, 189);
     width: 200px;
     height: 400px;
     padding: 40px 50px;
@@ -139,8 +139,11 @@ ul,ol{
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px; 
+}
+log-foot, .button-foot{
+    border: 1px dashed black; 
+    background-color: coral;
 }
 
 /*debug rules*/
@@ -175,6 +178,5 @@ ul,ol{
     background-color: aqua;
 }
 .debug .log-foot, .button-foot{
-    border: 1px dashed black;
-    background-color: yellowgreen; 
+    border: 1px dashed black; 
 }
